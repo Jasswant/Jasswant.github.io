@@ -597,7 +597,7 @@ function App() {
         {filteredAndSortedAlbums.length === 0 ? (
           <div className="text-center py-16">
             <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-12 border-2 border-dashed border-pink-300 max-w-md mx-auto">
-              <div className="text-6xl mb-4">📸</div>
+              <div className="text-6xl mb-4"><i className="bi bi-camera"></i></div>
               <h3 className="text-pink-900 mb-2">
                 {searchQuery || filterLocked !== 'all' ? t.noAlbumsFound : t.noAlbumsYet}
               </h3>
