@@ -1,6 +1,6 @@
 import { Album } from '../types';
 
-const API_BASE_URL = '"https://api.jass-production.me"';
+const API_BASE_URL = 'https://api.jass-production.me';
 
 export const api = {
   getAlbums: async (): Promise<Album[]> => {
@@ -53,4 +53,5 @@ export const api = {
     return response.json();
   }
 };
+
 
