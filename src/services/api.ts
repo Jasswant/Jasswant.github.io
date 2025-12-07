@@ -1,6 +1,6 @@
 import { Album } from '../types';
 
-const API_BASE_URL = 'https://album-backend-yrh8.onrender.com';
+const API_BASE_URL = 'http://152.42.222.167';
 
 export const api = {
   getAlbums: async (): Promise<Album[]> => {
